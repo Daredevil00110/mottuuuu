@@ -1,0 +1,53 @@
+/* Apply styles to the .container */
+.container {
+    position: relative;
+    width: 310px;
+    height: 300px;
+    /* text-align: center; */
+  }
+  
+  /* Apply styles to the .canvas */
+  .canvas {
+    position: absolute;
+    z-index: 2;
+    width: 321px; /* Adjusted width to match the container */
+    height: 300px; /* Adjusted height to match the container */
+  }
+  
+  /* Apply styles to the .form */
+  .form {
+    visibility: visible;
+  }
+  
+  /* Apply styles to the .form img */
+  .form img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Apply styles to the .span */
+  .span {
+    position: absolute;
+    left: 15px;
+    right: 0;
+    z-index: 1;
+    bottom: -10px;
+  }
+  
+  
+  /* Apply styles to the <a> within the <font> */
+  font a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Apply styles to the <img> within the <a> */
+  font a img {
+    width: 100%;
+    height: auto;
+  }
+  .span h2,
+    .span b {
+      color: green;
+      text-align: center;
+    }
